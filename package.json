@@ -1,0 +1,14 @@
+{
+  "name": "hot-server",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot server.ts",
+    "start": "bun server.ts"
+  },
+  "dependencies": {
+    "hono": "^4.13.22"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.5"
+  }
+}

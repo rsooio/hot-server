@@ -1,0 +1,8 @@
+services:
+  hot:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/app/app
+      - ./editor.html:/app/editor.html
